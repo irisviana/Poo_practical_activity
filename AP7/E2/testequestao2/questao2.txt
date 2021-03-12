@@ -1,0 +1,8 @@
+A vantagem de utilizar a classe Pessoa abstrata é que quando cria os metodos abstrados getDataAniversário e
+getEmail,obrigatóriamente as subclasses tem que implementar os dois metodos,dessa forma tanto o amigo quanto
+o conhecido iriam possuir data de aniversario e email.Porem,ao fazer essa mudança  o amigo e o conhecido
+teriam os mesmos atribustos e não haveria nenhuma diferença entre eles,dessa forma sobrescrevi na  subclasse 
+amigo o metodo getEmail e retornei null,e na classe conhecido sobrescrevi o metodo getDataAniversario e retornei
+null também,dessa forma as duas subclasses permaneceriam distintas,porem não mudaria nada,o amigo continuaria
+apenas com data de aniversario e conhecido com email.
+

@@ -1,0 +1,5 @@
+Ao implementar as classes utilizando conceitos de herança,apenas o cliente poderia fazer compras,
+mas sabemos que no mundo real o funcionário também pode ser um cliente,dessa maneira o principal problema 
+dessa implementação é que os funcionários não poderiam comprar;Tendo em vista esse problema implementei
+uma soloçao,ou seja cliente é uma pessoa e tem um atributo  quantidade de compras,desse modo coloquei
+funcionário sendo do tipo cliente e os mesmos terão a possibilidade de realizar compras.

@@ -1,0 +1,3 @@
+Classe Aniversario=linha 16 .
+Classe Natal=linha 16;
+Classe DiaDosNamorados=linha 16;
