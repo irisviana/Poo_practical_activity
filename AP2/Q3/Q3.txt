@@ -1,0 +1,4 @@
+Questão3:
+A lampada e o Contador tem uma associação do tipo agregação,uma vez que a classe Contador
+existe independente da existencia de uma classe lampada,ou seja a parte(classe Contador) pode
+existe sem o todo(lampada).
