@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="593.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aulapratica10_3.FXMLDocumentController">
+   <children>
+      <Label layoutX="150.0" layoutY="32.0" text="Nome">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="109.0" text="CPF">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="estadoCivil" layoutX="120.0" layoutY="172.0" text="Estado Civil">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="215.0" text="Data Nascimento">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="labelNome" layoutX="222.0" layoutY="30.0" onAction="#Cadastrar" />
+      <TextField fx:id="labelCPF" layoutX="222.0" layoutY="107.0" onAction="#Cadastrar" />
+      <ChoiceBox fx:id="labelEstadoCivil" layoutX="222.0" layoutY="170.0" onDragDetected="#Cadastrar" prefWidth="150.0" />
+      <DatePicker fx:id="labelData" layoutX="210.0" layoutY="213.0" onAction="#Cadastrar" />
+      <Button fx:id="labelbutao" layoutX="261.0" layoutY="255.0" mnemonicParsing="false" onAction="#Cadastrar" text="Salvar" />
+   </children>
+</AnchorPane>

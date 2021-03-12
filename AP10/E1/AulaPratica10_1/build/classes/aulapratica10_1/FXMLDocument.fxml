@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="aulapratica10_1.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="214.0" layoutY="148.0" onAction="#handleButtonAction" text="ok" />
+        <Label fx:id="label" layoutX="62.0" layoutY="152.0" minHeight="16" minWidth="69" text="Total poupado R$:" />
+      <Label layoutX="13.0" layoutY="30.0" text="Juros ao mês %:" />
+      <Label layoutX="17.0" layoutY="63.0" text="Num. de anos:" />
+      <Label layoutX="17.0" layoutY="106.0" text="Depósito mensal R$:" />
+      <TextField fx:id="labelJuros" layoutX="154.0" layoutY="26.0" onAction="#handleButtonAction" />
+      <TextField fx:id="labelDeposito" layoutX="154.0" layoutY="102.0" onAction="#handleButtonAction" />
+      <TextField fx:id="labelNumAnos" layoutX="154.0" layoutY="68.0" onAction="#handleButtonAction" />
+    </children>
+</AnchorPane>
